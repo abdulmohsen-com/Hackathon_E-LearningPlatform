@@ -1,0 +1,295 @@
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: gray;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .topnav input[type=text] {
+    float: right;
+    padding: 8px;
+    border: none;
+    margin-top: 4px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+.img1 {
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: auto;
+    width: 50%;
+    width: 250px;
+    height: 250px;
+  }
+  .img2 {
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: auto;
+    width: 50%;
+    width: 250px;
+    height: 250px;
+    border-radius: 50px;
+  }
+body{
+    background-color: #264653 ;
+}
+.link{
+    text-decoration: none;
+    color: white;
+ }
+ .mainol{
+     width: 20%;
+ }
+ .movies{
+    background-color: grey;
+    width: 100%;
+    color: white;
+ }
+ .series{
+    background-color: black;
+    width: 100%;
+    color: white;
+ }
+ .topm{
+    background-color: grey;
+    width: 100%;
+    color: white;
+ }
+ .tops{
+    background-color: black;
+    width: 100%;
+    color: white;
+ }
+ .comd{
+    background-color:grey ;
+    width: 100%;
+    color: white;
+ }
+.mainbtn{
+    background-color: olivedrab;
+    width: 80px;
+}
+.mainbtn1{
+    background-color: olivedrab;
+    width: 80px;
+    text-decoration: none;
+    color: white;
+}
+.crew1{
+    list-style: none;
+}
+.mainbtn2{
+    background-color: olivedrab;
+    width: 80px;
+    text-decoration: none;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+.maintitles{
+  color: white;
+  text-align: center;
+}
+.mainol{
+  width: 10%;
+}
+.h-about{
+    color: white;
+}
+.color{
+    color: white;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5px auto; /* 15% from the top and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    /* Position it in the top right corner outside of the modal */
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  /* Close button on hover */
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+  }
+  
+  @keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+ 
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  progress[value] {
+    appearance: none; 
+    border: none;     
+    color: green;   
+  }
+    
+  progress[value]::-webkit-progress-value {
+    background-image: linear-gradient(
+      to right,
+      #00ff00, #014f01
+    );
+    transition: width 1s linear;
+  }
+
+  body{
+	font-size: 20px;
+	font-family: sans-serif;
+	color: #333;
+}
+.question{
+	font-weight: 600;
+}
+.answers {
+    margin-bottom: 20px;
+}
+#submit{
+	font-family: sans-serif;
+	font-size: 20px;
+	background-color: #297;
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+	padding: 20px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+#submit:hover{
+	background-color: #3a8;
+}
